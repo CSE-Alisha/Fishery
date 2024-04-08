@@ -1,0 +1,15 @@
+.banner {
+  width: 100vw;
+}
+
+.banner img {
+  width: 100vw;
+  height: auto;
+}
+
+@media only screen and (max-width: 1250px) {
+  .banner img {
+    padding: 10px;
+    border-radius: 40px;
+  }
+}

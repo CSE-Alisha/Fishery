@@ -1,0 +1,17 @@
+.title {
+  font-size: 3rem;
+  cursor: pointer;
+  margin: 1rem;
+}
+
+.title:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 1160px) {
+  .title {
+    font-size: 10px;
+    font-weight: bold;
+    margin: 10px;
+  }
+}

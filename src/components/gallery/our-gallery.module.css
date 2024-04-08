@@ -1,0 +1,44 @@
+.gallery {
+  padding: 4rem 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin: 1rem;
+}
+
+.content {
+  font-size: 1.2rem;
+  width: 80%;
+  text-align: center;
+  color: rgb(27, 27, 27);
+}
+
+.image-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem 0;
+  width: 100%;
+}
+
+.image-section img {
+  margin: 1.5rem;
+  cursor: pointer;
+  height: auto;
+}
+
+@media only screen and (max-width: 1250px) {
+  .gallery {
+    padding: 0;
+  }
+  .image-section img {
+    height: auto;
+    width: 20rem;
+  }
+}
